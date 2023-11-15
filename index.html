@@ -26,15 +26,30 @@
   </div>
 
   <!--The pattern divider image for the Desktop-->
-  <img src="./images/pattern-divider-desktop.svg" alt="" class="card--divider">
+  <picture>
+    <!--Fetch the image of the pattern-divider depending on the size of the screen-->
+    <source media="(max-width:480px)" srcset="./images/pattern-divider-mobile.svg">
+    <source media="(min-width:480px)" srcset="./images/pattern-divider-desktop.svg">
+    
+    <img
+     src="./images/pattern-divider-desktop.svg"
+    alt="pattern-divider" 
+    class="card--divider">
+  </picture>
+ 
 
   <!--Button with the dice image -->
   <button id="btn" class="btn">
     <img src="./images/icon-dice.svg" alt="">
   </button>
 </div>
-
 <!--End of Card-->
+
+<!--Designed by-->
+
+<!-- <div class="copyright--section">
+  <p class="designedBy">Designed by: Matthew Kuria <span id="date">2023</span></p>
+</div> -->
 
 <!--Script-->
   <script src="script.js"></script>
