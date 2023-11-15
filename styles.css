@@ -43,7 +43,7 @@ body{
 .btn{
     position: absolute;
     background-color:hsl(150, 100%, 66%) ;
-    left: 50%;
+    left: 48%;
     bottom: -30px;
     transform:translateX(-50%);
     border: none;

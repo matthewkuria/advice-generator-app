@@ -20,7 +20,7 @@ fetch('https://api.adviceslip.com/advice').then(response =>{
     const advice = adviceContent.slip.advice; //Assign the slip's advice property value to advice
 
     //Display the fetched advice number and advice content to the heading span tag and to the quoted text respectively
-    adviceId.innerHTML = `<span>${adviceNo}</span>`;
+    adviceId.innerHTML = adviceNo;
     adviceText.innerHTML =`<p>${advice}</p>`
 }).catch(error =>{
     //In case of an error while fetching the advice content via API the error message will be displayed on the console
@@ -34,5 +34,5 @@ window.onload =() =>{
 }
 //Add an eventlistener to the button on the card which "fires" the fetchAdvice() function when clicked
 btn.addEventListener('click',function(){
-    fetchAdvice();
+    fetchAdvice();//The function call to get advice via API
 })
