@@ -15,7 +15,38 @@ body{
     min-height: 100vh;
 }
 .card{
+    position: relative;
     background-color: hsl(217, 19%, 24%);
     border-radius: 15px;
+    color:hsl(193, 38%, 86%);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 33px;
 
+}
+.title{
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+.advice{
+    font-size: 28px;
+    margin: 20px;
+}
+.card--divider{
+    display: block;
+    width: 96%;
+    margin-bottom: 20px;
+    
+}
+.btn{
+    position: absolute;
+    background-color:hsl(150, 100%, 66%) ;
+    left: 50%;
+    bottom: -30px;
+    transform:translateX(-50%);
+    border: none;
+    padding: 15px 17px;
+    border-radius: 50%;
 }
