@@ -1,3 +1,14 @@
+/*
+===================================================================================
+                                    MAIN SCRIPT
+===================================================================================
+File: script.js
+Author: Matthew Kuria
+Date: 16th November, 2023
+Description: This stylesheet contains the main script for the advice-generator-app.
+===================================================================================
+*/
+
 //Target the adviceId on the title using the DOM
 const adviceId = document.querySelector('#adviceId');
 
@@ -10,7 +21,7 @@ const btn = document.querySelector("#btn");
 //A function to help modularize getting an advice via Advice Slip API
 function fetchAdvice(){
     
-    //Get the API and its content using API promises 
+    //Get the API and its content using API promises through the provided url and promises
 fetch('https://api.adviceslip.com/advice').then(response =>{
     return response.json();//This returns a JSON object (slip)
     

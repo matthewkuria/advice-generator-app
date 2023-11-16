@@ -1,19 +1,33 @@
-/*Import the font-family Manrope*/
+/*
+===================================================================================
+                                    MAIN STYLESHEET
+===================================================================================
+File: styles.css
+Author: Matthew Kuria
+Date: 15th November, 2023
+Description: This stylesheet contains the main styles for the advice-generator-app.
+===================================================================================
+*/
 
+/*Import the font-family Manrope*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@800&display=swap');
 
+/* CSS Reset : Remove default margin and padding*/
 *{
     margin: 0;
     padding: 0;
 }
+
+/* General styles for the entire page */
 body{
     font-family: 'Manrope', sans-serif;
     background-color: hsl(218, 23%, 16%);
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+    align-items: center;    
     min-height: 100vh;
 }
+
+/* Card styling */
 .card{
     position: relative;
     background-color: hsl(217, 19%, 24%);
@@ -25,21 +39,29 @@ body{
     padding: 33px;
 
 }
+
+/* styling the heading title of the card */
 .title{
     color: hsl(150, 100%, 66%);
     font-size: 13px;
     letter-spacing: 3px;
 }
+
+/* Styling the card advice content(quoted)*/
 .advice{
     font-size: 28px;
     margin: 20px;
 }
+
+/* Styling the pattern-divider image */
 .card--divider{
     display: block;
     width: 96%;
     margin-bottom: 20px;
     
 }
+
+/* Styling the button on the card */
 .btn{
     position: absolute;
     background-color:hsl(150, 100%, 66%) ;
@@ -51,17 +73,20 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+/* Styling the button to have a glowing effect on hover */
 .btn:hover{
    
     box-shadow: 0px 0px 24px hsl(150, 100%, 66%) ;
 }
 
-/* Media query to make the card responsive to small screens */
+
+/* Responsive styles using Media query for small screens(mobile) */
 @media only screen and (max-width: 480px){
     .card{
         margin: 0 12px ;
         padding: 22px;
     }
+    /* Overwriting the body style on small(mobile screens) */
    body{
     display: flex;
     align-items: center;
