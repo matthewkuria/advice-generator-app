@@ -32,9 +32,9 @@ cd advice-generator-app
 
 # Install dependencies
 npm install
-
+```
 ## Usage
-# Command or script to run the project
+Run this command
 npm start
 
 
@@ -53,12 +53,12 @@ To contribute to this project, please follow these guidelines:
 2.Create a branch
 ```bash
 git checkout -b feature-name
-
+```
 3.Make your changes and test them thoroughly.
 4.After testing Push your changes to your fork of the repository.
 ```bash
 git push origin feature-name
-
+```
 ## Acknowledgments
 
 I would like to express our sincere gratitude to the SpaceYaTech for coming up and issuing this challenge as part of the technical interview:
