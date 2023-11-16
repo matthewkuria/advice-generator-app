@@ -5,7 +5,7 @@
 File: script.js
 Author: Matthew Kuria
 Date: 16th November, 2023
-Description: This stylesheet contains the main script for the advice-generator-app.
+Description: This file contains the main script for the advice-generator-app.
 ===================================================================================
 */
 
