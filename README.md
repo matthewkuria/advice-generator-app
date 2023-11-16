@@ -21,7 +21,7 @@ The features in the project are: a card which houses advice title ,text content 
 
 ## Installation
 
-The following are the steps on how to install the project to your local repo
+The following are the steps on how to install the project to your local repo.
 
 ```bash
 # Clone the repository
@@ -36,6 +36,7 @@ npm install
 ## Usage
 # Command or script to run the project
 npm start
+
 
 ## Contributing
 
