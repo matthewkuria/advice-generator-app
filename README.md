@@ -39,7 +39,7 @@ npm start
 
 ## Contributing
 
-We welcome contributions from the community! Whether you're fixing a bug, adding a new feature, or improving documentation, we appreciate your help.
+I welcome contributions from the community! Whether you're fixing a bug, adding a new feature, or improving documentation, I appreciate your help.
 
 To contribute to this project, please follow these guidelines:
 
